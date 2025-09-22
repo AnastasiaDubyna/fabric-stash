@@ -1,164 +1,40 @@
-import type Fabric from "@/interfaces/fabricInterface";
-import React from "react";
+import { useRef } from "react";
 
 const FabricRoll = ({
-  fabricData,
-  rollType
+  transformProp,
+  shelfId,
+  rollId,
+  patternId,
+  handleRollMouseEnter,
+  handleRollMouseLeave
 }: {
-  fabricData: Fabric,
-  rollType: "left" | "right" | "straight" | "horizontal";
+  transformProp: string,
+  shelfId: number,
+  rollId: number,
+  patternId: string,
+  handleRollMouseEnter: (shelfId: number, rollId: number, rect: DOMRect | undefined) => void
+  handleRollMouseLeave: () => void
 }) => {
-  const {image} = fabricData;
-  const patternId = image ? `pattern-${image.midi}` : "pattern-default";
-  const rolls = {
-    left: <FabricRollLeft image={image} patternId={patternId} />,
-    right: <FabricRollRight image={image} patternId={patternId} />,
-    straight: <FabricRollStraight image={image} patternId={patternId} />,
-    horizontal: <FabricRollHorizontal image={image} patternId={patternId} />,
-  }
+  const ref = useRef<SVGGElement>(null);
 
   return (
-    rolls[rollType]
+    <g ref={ref} id={`roll-${shelfId}-${rollId}`} transform={transformProp} onMouseEnter={() => handleRollMouseEnter(shelfId, rollId, ref.current?.getBoundingClientRect())} onMouseLeave={handleRollMouseLeave}>
+      <g transform="translate(460.555 23.388)" fill={patternId ? `url(#${patternId})` : "none"} stroke="#707070" strokeWidth="5">
+        <rect width="72.986" height="239.069" rx="9" stroke="none"/>
+        <rect x="2.5" y="2.5" width="67.986" height="234.069" rx="6.5" fill="none"/>
+      </g>
+      <g transform="translate(481.514 12.662)" fill="#707070" stroke="#707070" strokeWidth="1">
+        <rect width="30" height="11" stroke="none"/>
+        <rect x="0.5" y="0.5" width="29" height="10" fill="none"/>
+      </g>
+      <g transform="translate(482 259.845)" fill="#707070" stroke="#707070" strokeWidth="1">
+        <rect width="30" height="11" stroke="none"/>
+        <rect x="0.5" y="0.5" width="29" height="10" fill="none"/>
+      </g>
+    </g>
   );
 };
 
-const FabricRollHorizontal = ({
-  image,
-  patternId
-}: {
-  image: {
-    original: string;
-    midi: string;
-  } | null,
-  patternId: string
-}) => {
-  return (
-    <svg className="w-full h-auto" viewBox="0 0 239.069 71.654">
-      <defs>
-        <pattern id={patternId} patternUnits="userSpaceOnUse" width="71.654" height="239.069">
-          <image
-            xlinkHref={
-              image
-                ? `${import.meta.env.VITE_API_IMAGE_URL_BASE}/${image.midi}`
-                : "default-pattern.jpg"
-            }
-            width="71.654"
-            height="239.069"
-            preserveAspectRatio="xMidYMid slice" 
-          />
-        </pattern>
-      </defs>
-      <g transform="translate(239.069) rotate(90)" stroke="#707070" strokeWidth="5" fill={`url(#${patternId})`}>
-        <rect width="71.654" height="239.069" rx="25" stroke="none"/>
-        <rect x="2.5" y="2.5" width="66.654" height="234.069" rx="22.5" fill="none"/>
-      </g>
-    </svg>
-  )
-};
-
-const FabricRollStraight = ({
-  image,
-  patternId
-}: {
-  image: {
-    original: string;
-    midi: string;
-  } | null,
-  patternId: string
-}) => {
-  return (
-    <svg className="w-auto h-full" viewBox="0 0 70 239.069">
-      <defs>
-        <pattern id={patternId} patternUnits="userSpaceOnUse" width="71.654" height="239.069">
-          <image
-            xlinkHref={
-              image
-                ? `${import.meta.env.VITE_API_IMAGE_URL_BASE}/${image.midi}`
-                : "default-pattern.jpg"
-            }
-            width="71.654"
-            height="239.069"
-            preserveAspectRatio="xMidYMid slice" 
-          />
-        </pattern>
-      </defs>
-      <g stroke="#707070" strokeWidth="5" fill={`url(#${patternId})`}>
-        <rect width="71.654" height="239.069" rx="25" stroke="none"/>
-        <rect x="2.5" y="2.5" width="66.654" height="234.069" rx="22.5" fill="none"/>
-      </g>
-    </svg>
-  )
-};
-
-const FabricRollRight = ({
-  image,
-  patternId
-}: {
-  image: {
-    original: string;
-    midi: string;
-  } | null,
-  patternId: string
-}) => {
-  return (
-    <svg className="w-auto h-full" viewBox="0 0 127.361 249.302">
-      <defs>
-        <pattern id={patternId} patternUnits="userSpaceOnUse" width="71.654" height="239.069">
-          <image
-            xlinkHref={
-              image
-                ? `${import.meta.env.VITE_API_IMAGE_URL_BASE}/${image.midi}`
-                : "default-pattern.jpg"
-            }
-            width="71.654"
-            height="239.069"
-            preserveAspectRatio="xMidYMid slice" 
-          />
-        </pattern>
-      </defs>
-      <g transform="translate(57.836) rotate(14)" stroke="#707070" strokeWidth="5" fill={`url(#${patternId})`}>
-        <rect width="71.654" height="239.069" rx="25" stroke="none"/>
-        <rect x="2.5" y="2.5" width="66.654" height="234.069" rx="22.5" fill="none"/>
-      </g>
-    </svg>
-   
-  )
-};
-
-const FabricRollLeft = ({
-  image,
-  patternId
-}: {
-  image: {
-    original: string;
-    midi: string;
-  } | null,
-  patternId: string
-}) => {
-  return (
-    <svg viewBox="0 0 127.361 249.302" className="w-auto h-full" >
-      <defs>
-        <pattern id={patternId} patternUnits="userSpaceOnUse" width="71.654" height="239.069">
-          <image
-            xlinkHref={
-              image
-                ? `${import.meta.env.VITE_API_IMAGE_URL_BASE}/${image.midi}`
-                : "default-pattern.jpg"
-            }
-            width="71.654"
-            height="239.069"
-            preserveAspectRatio="xMidYMid slice"
-          />
-        </pattern>
-      </defs>
-
-      <g transform="translate(0 17.335) rotate(-14)" stroke="#707070" strokeWidth="5" fill={`url(#${patternId})`} >
-        <rect width="71.654" height="239.069" rx="25" stroke="none" />
-        <rect x="2.5" y="2.5" width="66.654" height="234.069" rx="22.5" fill="none"/>
-      </g>
-    </svg>
-  )
-}
 
 export default FabricRoll;
 
