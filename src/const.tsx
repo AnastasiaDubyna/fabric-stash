@@ -42,3 +42,7 @@ export const shelfsTransformProps = [
     "translate(718.47 -411.548) rotate(90)"
   ]
 ];
+
+export const shelfTemplatesCount = shelfsTransformProps.length;
+
+export const SHELFS_PER_FETCH_REQUEST = 5; 
