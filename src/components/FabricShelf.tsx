@@ -1,26 +1,26 @@
-import { stackBlocks } from "@/utils/blocks";
-import type { Block } from "@/utils/blocks";
 import type Fabric from "@/interfaces/fabricInterface";
-import React, { useEffect } from "react";
-import FabricBlock from "@components/FabricBlock";
-import Grid from "@mui/material/Grid";
+import React, { memo, useEffect } from "react";
 import { shelfsTransformProps } from "@/const";
 import type { RowComponentProps } from "react-window";
 import FabricRoll from "./FabricRoll";
 
-const FabricShelf = ({
+const FabricShelf = memo(({
   fabricListChunks,
   index,
   style,
   handleRollMouseEnter,
-  handleRollMouseLeave
+  handleRollMouseLeave,
+  handleRollClick
 }: RowComponentProps<{
   fabricListChunks: Fabric[][],
   handleRollMouseEnter: (shelfId: number, rollId: number, rect: DOMRect | undefined) => void
   handleRollMouseLeave: () => void
+  handleRollClick: (fabricData: Fabric) => void
 }>) => {
   const [patternIDs, setPatternIds] = React.useState<string[]>([]);
   const [fabricData, setFabricData] = React.useState<Fabric[]>([]);
+
+  // console.log(fabricListChunks, index, style, handleRollMouseEnter, handleRollMouseLeave, handleRollClick)
 
   useEffect(() => {
     setFabricData(fabricListChunks[index]);
@@ -30,6 +30,8 @@ const FabricShelf = ({
     setPatternIds(fabricData ? fabricData.map((fabric) => fabric.image ? `pattern-${fabric.image.midi}` : "pattern-default") : []);
   }, [fabricData]);
 
+  // console.log(fabricListChunks);
+  console.log("fabric shelf is rerendered");
   return (
     <svg xmlns="http://www.w3.org/2000/svg" className="w-full h-auto" viewBox="0 0 854 279" style={style}>
       {
@@ -56,21 +58,24 @@ const FabricShelf = ({
         <rect x="5" y="5" width="844" height="269" fill="none"/>
       </g>
       {
-        shelfsTransformProps[index % 4].map((transformProp, id) => (
-          <FabricRoll
-            key={`roll-${index}-${id}`} 
+        shelfsTransformProps[index % 4].map((transformProp, id) => {
+          // console.log(fabricListChunks, index, id);
+          return <FabricRoll
+            key={`roll-${index}-${id}`}
+            fabricData={fabricListChunks[index][id]} 
             transformProp={transformProp}
             shelfId={index}
             rollId={id}
             patternId={patternIDs[id]}
             handleRollMouseEnter={handleRollMouseEnter}
             handleRollMouseLeave={handleRollMouseLeave}
+            handleRollClick={handleRollClick}
           />
-        ))
+        })
       }
     </svg>
 
   )
-};
+});
 
 export default FabricShelf;

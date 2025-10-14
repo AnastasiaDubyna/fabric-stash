@@ -17,10 +17,24 @@ export const countShelves = (totalRolls: number): number => {
   return shelfCount;
 };
 
-export const countShelfsPerViewport = (height: number, width: number) => {
+const countShelfsPerViewport = (height: number, width: number) => {
   const rowHeight = (width / 2) * (279 / 854) - 5;
   return Math.ceil(height / rowHeight);
 }
+
+export const getShelvesPerPage = (height: number, width: number) => {
+  const shelfPerViewport = countShelfsPerViewport(height, width);
+  const shelfVariationsCount = shelfsTransformProps.length;
+
+  return Math.round(shelfPerViewport / shelfVariationsCount) * shelfVariationsCount;
+};
+
+export const getFabricsPerPage = (shelvesPerPage: number) => {
+  const shelvesStackCapacity = shelfsTransformProps.reduce((acc, currArr) => acc + currArr.length, 0);
+  const shelfVariationsCount = shelfsTransformProps.length;
+
+  return (shelvesPerPage / shelfVariationsCount) * shelvesStackCapacity;
+};
 
 export const getFabricCountInRange = (shelfStartIndex: number, shelfStopIndex: number) => {
   let result = 0;
