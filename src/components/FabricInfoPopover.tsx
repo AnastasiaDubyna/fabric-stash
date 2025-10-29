@@ -1,16 +1,30 @@
 import type Fabric from "@/interfaces/fabricInterface";
+import { useEffect, useState, type SetStateAction } from "react";
 
 const FabricInfoPopover = (
   {
-    fabricData,
-    rect
+    registerPopoverHandler
   }:
   {
-    fabricData: Fabric,
-    rect: DOMRect | undefined
+    registerPopoverHandler: (handler: (selectedRoll?: Fabric, rect?: DOMRect) => void) => void;
   }
 ) => {
+  const [selectedRoll, setSelectedRoll] = useState<Fabric|undefined>(undefined);
+  const [rect, setRect] = useState<DOMRect|undefined>(undefined);
+
+  const popoverHandler = (selectedRoll?: Fabric, rect?: DOMRect) => {
+    setSelectedRoll(selectedRoll);
+    setRect(rect);
+    console.log("HANDLER CALLED")
+  };
+
+  useEffect(() => {
+    console.log(popoverHandler)
+    registerPopoverHandler(popoverHandler);
+  }, []);
+
   return (
+    selectedRoll && rect &&
     <div 
       className="flex flex-col fixed z-50 rounded-lg bg-white shadow-lg border border-gray-200 px-4 py-2 text-sm text-gray-800"
       style={{
@@ -18,11 +32,11 @@ const FabricInfoPopover = (
         left: rect?.left
       }}
     >
-      <p>Type: {fabricData.type}</p>
-      <p>Weave: {fabricData.weave}</p>
-      <p>Left: {fabricData.in_stock}m</p>
-      <p>Weight: {fabricData.gsm}gsm</p>
-      <p>Comment: {fabricData.comment}</p>
+      <p>Type: {selectedRoll.type}</p>
+      <p>Weave: {selectedRoll.weave}</p>
+      <p>Left: {selectedRoll.in_stock}m</p>
+      <p>Weight: {selectedRoll.gsm}gsm</p>
+      <p>Comment: {selectedRoll.comment}</p>
     </div>
   )
 };

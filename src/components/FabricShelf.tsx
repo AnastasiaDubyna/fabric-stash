@@ -4,7 +4,7 @@ import { shelfsTransformProps } from "@/const";
 import type { RowComponentProps } from "react-window";
 import FabricRoll from "./FabricRoll";
 
-const FabricShelf = memo(({
+const FabricShelf = ({
   fabricListChunks,
   index,
   style,
@@ -20,8 +20,6 @@ const FabricShelf = memo(({
   const [patternIDs, setPatternIds] = React.useState<string[]>([]);
   const [fabricData, setFabricData] = React.useState<Fabric[]>([]);
 
-  // console.log(fabricListChunks, index, style, handleRollMouseEnter, handleRollMouseLeave, handleRollClick)
-
   useEffect(() => {
     setFabricData(fabricListChunks[index]);
   }, []);
@@ -30,8 +28,6 @@ const FabricShelf = memo(({
     setPatternIds(fabricData ? fabricData.map((fabric) => fabric.image ? `pattern-${fabric.image.midi}` : "pattern-default") : []);
   }, [fabricData]);
 
-  // console.log(fabricListChunks);
-  console.log("fabric shelf is rerendered");
   return (
     <svg xmlns="http://www.w3.org/2000/svg" className="w-full h-auto" viewBox="0 0 854 279" style={style}>
       {
@@ -59,7 +55,6 @@ const FabricShelf = memo(({
       </g>
       {
         shelfsTransformProps[index % 4].map((transformProp, id) => {
-          // console.log(fabricListChunks, index, id);
           return <FabricRoll
             key={`roll-${index}-${id}`}
             fabricData={fabricListChunks[index][id]} 
@@ -76,6 +71,6 @@ const FabricShelf = memo(({
     </svg>
 
   )
-});
+};
 
 export default FabricShelf;

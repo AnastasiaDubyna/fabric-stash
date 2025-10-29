@@ -1,11 +1,11 @@
 import './App.css'
-import FrabricStash from './pages/FabricStash'
+import FabricStash from './pages/FabricStash'
 
 function App() {
 
   return (
     <>
-      <FrabricStash />  
+      <FabricStash />  
     </>
   )
 }

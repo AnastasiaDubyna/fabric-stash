@@ -22,16 +22,17 @@ const FabricStash = ({
 }: FabricStashProps ) => {
 	const [fabricsList, setFabricsList] = React.useState<Fabric[]>([]);
 	const [fabricListChunks, setFabricsListChunks] = React.useState<Fabric[][]>([]); //TODO: probably shouldn't resplit the whole list after each fetch
-	const [hoveredRoll, setHoveredRoll] = React.useState<Fabric | null>(null);
-	const [hoveredRect, setHoveredRect] = React.useState<DOMRect | undefined>(undefined);
+	// const [hoveredRoll, setHoveredRoll] = React.useState<Fabric | null>(null);
+	// const [hoveredRect, setHoveredRect] = React.useState<DOMRect | undefined>(undefined);
 	const [rowsTotal, setRowsTotal] = useState<number>(0);
 	const [expanded, setExpanded] = useState<boolean>(false);
 	const [selectedRoll, setSelectedRoll] = useState<Fabric | null>(null);
 	const [isEditMode, setIsEditMode] = useState<boolean>(false);
 	const [shelfsPerPage, setShelfsPerPage] = useState<number>(0);
 	const [fabricsPerPage, setFabricsPerPage] = useState<number>(0);
-	// const [popoverHandler, setPopover handler]
+	const [popoverHandler, setPopoverHandler] = useState<((selectedRoll?: Fabric, rect?: DOMRect) => void) | null>(null); //TODO: add type here 
 	
+	console.log("Fabric stash rerenders");
 	const { data: fabricsTotal } = useQuery({
 		queryKey: ['fabricsTotal'],
 		queryFn: getTotal,
@@ -44,13 +45,15 @@ const FabricStash = ({
 	);
 
 	const handleRollMouseEnter = (shelfId: number, rollId: number, rect: DOMRect | undefined) => {
-		if (fabricListChunks[shelfId] && fabricListChunks[shelfId][rollId]) {
-			setHoveredRoll(fabricListChunks[shelfId][rollId]);
-			setHoveredRect(rect);
+		console.log("ENTERED")
+		console.log(fabricListChunks[shelfId], fabricListChunks[shelfId][rollId], popoverHandler, rect);
+		//Popover is undefined 
+		if (fabricListChunks[shelfId] && fabricListChunks[shelfId][rollId] && popoverHandler && rect) {
+			popoverHandler(fabricListChunks[shelfId][rollId], rect);
 		}
 	};
 	const handleRollMouseLeave = () => {
-		setHoveredRoll(null);
+		popoverHandler && popoverHandler();
 	};
 
 	const handleRollClick = (fabricData: Fabric) => {
@@ -67,13 +70,8 @@ const FabricStash = ({
 	}, [fabricsList]);
 
 	useEffect(() => {
-		// console.log(fabricPages ? fabricPages.map(page => page.fabrics) : []);
 		setFabricsList(fabricPages ? fabricPages.flatMap(page => page.fabrics) : []);
 	}, [fabricPages]);
-
-	// 	useEffect(() => {
-	// 	fabricsTotal && setRowsTotal(countShelves(fabricsTotal));
-	// }, [fabricsTotal]);
 
 	useEffect(() => {
 		setShelfsPerPage(getShelvesPerPage(window.innerHeight, window.innerWidth));
@@ -83,7 +81,6 @@ const FabricStash = ({
 		setFabricsPerPage(getFabricsPerPage(shelfsPerPage));
 	}, [shelfsPerPage]);
 
-	// console.log("fabricsList.length:", fabricsList.length);
 	//TODO: fix bug - rowCount gets recalculated and messes up shelves 
 	return (
 		fabricListChunks.length > 0 && 
@@ -93,9 +90,6 @@ const FabricStash = ({
 					{({ height, width }) => {
 						const rowHeight = width * (279 / 854) - 5;
 						const rowsPerViewport = Math.ceil(height / rowHeight);
-						// console.log("row count", fabricListChunks.length < rowsPerViewport ? rowsPerViewport : fabricListChunks.length);
-						// console.log("rowsPerViewport", rowsPerViewport);
-						// console.log("fabricListChunks.length", fabricListChunks.length);
 						return <List
 							rowComponent={FabricShelf}
 							rowCount={fabricListChunks.length < rowsPerViewport ? rowsPerViewport : fabricListChunks.length}
@@ -110,7 +104,7 @@ const FabricStash = ({
 					!isEditMode 
 						? <FabricInfoExpanded fabricData={selectedRoll} handleEditBtnClick={handleEditBtnClick} />
 						: <FabricInfoForm fabricData={selectedRoll} />)}
-			{ hoveredRoll && <FabricInfoPopover fabricData={hoveredRoll} rect={hoveredRect}/>}
+			<FabricInfoPopover registerPopoverHandler={setPopoverHandler}/>
 		</>
 	);
 };

@@ -22,6 +22,7 @@ const FabricRoll = ({
 }) => {
   const ref = useRef<SVGGElement>(null);
 
+  console.log("Fabric roll rerenders");
   return (
     <g 
       ref={ref} id={`roll-${shelfId}-${rollId}`} transform={transformProp} 

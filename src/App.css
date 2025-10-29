@@ -19,3 +19,9 @@ html, body, #root {
     display: none; /* Chrome, Safari, Edge */
   }
 }
+
+@layer components {
+  .popover {
+    
+  }
+}
