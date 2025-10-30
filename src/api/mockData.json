@@ -1,0 +1,3713 @@
+[
+  {
+    "_id": "1",
+    "image": {
+      "original": "/rolls/pattern-15.jpg",
+      "midi": "/rolls/pattern-15.jpg"
+    },
+    "weave": "Oxford Weave",
+    "in_stock": 5,
+    "gsm": 270,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "2",
+    "image": {
+      "original": "/rolls/pattern-11.jpg",
+      "midi": "/rolls/pattern-11.jpg"
+    },
+    "weave": "Velvet Weave",
+    "in_stock": 6,
+    "gsm": 120,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "3",
+    "image": {
+      "original": "/rolls/pattern-2.jpg",
+      "midi": "/rolls/pattern-2.jpg"
+    },
+    "weave": "Basket Weave",
+    "in_stock": 2,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "4",
+    "image": {
+      "original": "/rolls/pattern-17.jpg",
+      "midi": "/rolls/pattern-17.jpg"
+    },
+    "weave": "Chiffon Weave",
+    "in_stock": 3,
+    "gsm": 270,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "5",
+    "image": {
+      "original": "/rolls/pattern-19.jpg",
+      "midi": "/rolls/pattern-19.jpg"
+    },
+    "weave": "Canvas",
+    "in_stock": 4,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "6",
+    "image": {
+      "original": "/rolls/pattern-5.jpg",
+      "midi": "/rolls/pattern-5.jpg"
+    },
+    "weave": "Matelassé",
+    "in_stock": 9,
+    "gsm": 120,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "7",
+    "image": {
+      "original": "/rolls/pattern-17.jpg",
+      "midi": "/rolls/pattern-17.jpg"
+    },
+    "weave": null,
+    "in_stock": 1,
+    "gsm": 400,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "8",
+    "image": {
+      "original": "/rolls/pattern-20.jpg",
+      "midi": "/rolls/pattern-20.jpg"
+    },
+    "weave": null,
+    "in_stock": 10,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "9",
+    "image": {
+      "original": "/rolls/pattern-12.jpg",
+      "midi": "/rolls/pattern-12.jpg"
+    },
+    "weave": "Twill Weave",
+    "in_stock": 2,
+    "gsm": 420,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "10",
+    "image": {
+      "original": "/rolls/pattern-5.jpg",
+      "midi": "/rolls/pattern-5.jpg"
+    },
+    "weave": "Sateen",
+    "in_stock": 4,
+    "gsm": 400,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "11",
+    "image": {
+      "original": "/rolls/pattern-1.jpg",
+      "midi": "/rolls/pattern-1.jpg"
+    },
+    "weave": "Plain Weave",
+    "in_stock": 3,
+    "gsm": 420,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "12",
+    "image": {
+      "original": "/rolls/pattern-18.jpg",
+      "midi": "/rolls/pattern-18.jpg"
+    },
+    "weave": "Herringbone",
+    "in_stock": 6,
+    "gsm": 420,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "13",
+    "image": {
+      "original": "/rolls/pattern-13.jpg",
+      "midi": "/rolls/pattern-13.jpg"
+    },
+    "weave": "Satin Weave",
+    "in_stock": 2,
+    "gsm": 120,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "14",
+    "image": {
+      "original": "/rolls/pattern-15.jpg",
+      "midi": "/rolls/pattern-15.jpg"
+    },
+    "weave": null,
+    "in_stock": 10,
+    "gsm": 250,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "15",
+    "image": {
+      "original": "/rolls/pattern-5.jpg",
+      "midi": "/rolls/pattern-5.jpg"
+    },
+    "weave": "Piqué",
+    "in_stock": 9,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "16",
+    "image": null,
+    "weave": "Terrycloth",
+    "in_stock": 7,
+    "gsm": 180,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "17",
+    "image": null,
+    "weave": null,
+    "in_stock": 5,
+    "gsm": 180,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "18",
+    "image": {
+      "original": "/rolls/pattern-10.jpg",
+      "midi": "/rolls/pattern-10.jpg"
+    },
+    "weave": "Plain Weave",
+    "in_stock": 5,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "19",
+    "image": {
+      "original": "/rolls/pattern-19.jpg",
+      "midi": "/rolls/pattern-19.jpg"
+    },
+    "weave": "Basket Weave",
+    "in_stock": 5,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "20",
+    "image": {
+      "original": "/rolls/pattern-13.jpg",
+      "midi": "/rolls/pattern-13.jpg"
+    },
+    "weave": "Chiffon Weave",
+    "in_stock": 2,
+    "gsm": 400,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "21",
+    "image": {
+      "original": "/rolls/pattern-18.jpg",
+      "midi": "/rolls/pattern-18.jpg"
+    },
+    "weave": "Jacquard",
+    "in_stock": 2,
+    "gsm": 100,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "22",
+    "image": {
+      "original": "/rolls/pattern-16.jpg",
+      "midi": "/rolls/pattern-16.jpg"
+    },
+    "weave": null,
+    "in_stock": 6,
+    "gsm": 400,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "23",
+    "image": {
+      "original": "/rolls/pattern-2.jpg",
+      "midi": "/rolls/pattern-2.jpg"
+    },
+    "weave": "Oxford Weave",
+    "in_stock": 6,
+    "gsm": 100,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "24",
+    "image": {
+      "original": "/rolls/pattern-10.jpg",
+      "midi": "/rolls/pattern-10.jpg"
+    },
+    "weave": "Twill Weave",
+    "in_stock": 4,
+    "gsm": 300,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "25",
+    "image": {
+      "original": "/rolls/pattern-20.jpg",
+      "midi": "/rolls/pattern-20.jpg"
+    },
+    "weave": "Canvas",
+    "in_stock": 10,
+    "gsm": 350,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "26",
+    "image": {
+      "original": "/rolls/pattern-1.jpg",
+      "midi": "/rolls/pattern-1.jpg"
+    },
+    "weave": "Herringbone",
+    "in_stock": 2,
+    "gsm": 420,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "27",
+    "image": {
+      "original": "/rolls/pattern-16.jpg",
+      "midi": "/rolls/pattern-16.jpg"
+    },
+    "weave": null,
+    "in_stock": 10,
+    "gsm": 180,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "28",
+    "image": {
+      "original": "/rolls/pattern-19.jpg",
+      "midi": "/rolls/pattern-19.jpg"
+    },
+    "weave": "Velvet Weave",
+    "in_stock": 7,
+    "gsm": 220,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "29",
+    "image": {
+      "original": "/rolls/pattern-14.jpg",
+      "midi": "/rolls/pattern-14.jpg"
+    },
+    "weave": "Velvet Weave",
+    "in_stock": 4,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "30",
+    "image": {
+      "original": "/rolls/pattern-16.jpg",
+      "midi": "/rolls/pattern-16.jpg"
+    },
+    "weave": null,
+    "in_stock": 8,
+    "gsm": 150,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "31",
+    "image": {
+      "original": "/rolls/pattern-7.jpg",
+      "midi": "/rolls/pattern-7.jpg"
+    },
+    "weave": "Satin Weave",
+    "in_stock": 7,
+    "gsm": 200,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "32",
+    "image": {
+      "original": "/rolls/pattern-19.jpg",
+      "midi": "/rolls/pattern-19.jpg"
+    },
+    "weave": null,
+    "in_stock": 8,
+    "gsm": 420,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "33",
+    "image": null,
+    "weave": "Herringbone",
+    "in_stock": 2,
+    "gsm": 250,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "34",
+    "image": {
+      "original": "/rolls/pattern-3.jpg",
+      "midi": "/rolls/pattern-3.jpg"
+    },
+    "weave": "Twill Weave",
+    "in_stock": 7,
+    "gsm": 320,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "35",
+    "image": {
+      "original": "/rolls/pattern-2.jpg",
+      "midi": "/rolls/pattern-2.jpg"
+    },
+    "weave": "Gauze",
+    "in_stock": 4,
+    "gsm": 180,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "36",
+    "image": {
+      "original": "/rolls/pattern-11.jpg",
+      "midi": "/rolls/pattern-11.jpg"
+    },
+    "weave": "Dobby",
+    "in_stock": 6,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "37",
+    "image": {
+      "original": "/rolls/pattern-8.jpg",
+      "midi": "/rolls/pattern-8.jpg"
+    },
+    "weave": "Honeycomb Weave",
+    "in_stock": 1,
+    "gsm": 180,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "38",
+    "image": {
+      "original": "/rolls/pattern-7.jpg",
+      "midi": "/rolls/pattern-7.jpg"
+    },
+    "weave": "Poplin",
+    "in_stock": 9,
+    "gsm": 270,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "39",
+    "image": {
+      "original": "/rolls/pattern-14.jpg",
+      "midi": "/rolls/pattern-14.jpg"
+    },
+    "weave": "Chiffon Weave",
+    "in_stock": 9,
+    "gsm": 180,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "40",
+    "image": {
+      "original": "/rolls/pattern-20.jpg",
+      "midi": "/rolls/pattern-20.jpg"
+    },
+    "weave": "Terrycloth",
+    "in_stock": 10,
+    "gsm": 250,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "41",
+    "image": null,
+    "weave": null,
+    "in_stock": 3,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "42",
+    "image": {
+      "original": "/rolls/pattern-16.jpg",
+      "midi": "/rolls/pattern-16.jpg"
+    },
+    "weave": "Denim",
+    "in_stock": 5,
+    "gsm": 100,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "43",
+    "image": {
+      "original": "/rolls/pattern-14.jpg",
+      "midi": "/rolls/pattern-14.jpg"
+    },
+    "weave": "Herringbone",
+    "in_stock": 6,
+    "gsm": 120,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "44",
+    "image": {
+      "original": "/rolls/pattern-1.jpg",
+      "midi": "/rolls/pattern-1.jpg"
+    },
+    "weave": "Poplin",
+    "in_stock": 10,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "45",
+    "image": {
+      "original": "/rolls/pattern-15.jpg",
+      "midi": "/rolls/pattern-15.jpg"
+    },
+    "weave": "Denim",
+    "in_stock": 10,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "46",
+    "image": null,
+    "weave": "Herringbone",
+    "in_stock": 4,
+    "gsm": 100,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "47",
+    "image": {
+      "original": "/rolls/pattern-20.jpg",
+      "midi": "/rolls/pattern-20.jpg"
+    },
+    "weave": "Chiffon Weave",
+    "in_stock": 8,
+    "gsm": 150,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "48",
+    "image": {
+      "original": "/rolls/pattern-20.jpg",
+      "midi": "/rolls/pattern-20.jpg"
+    },
+    "weave": null,
+    "in_stock": 4,
+    "gsm": 320,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "49",
+    "image": {
+      "original": "/rolls/pattern-6.jpg",
+      "midi": "/rolls/pattern-6.jpg"
+    },
+    "weave": "Oxford Weave",
+    "in_stock": 10,
+    "gsm": 300,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "50",
+    "image": {
+      "original": "/rolls/pattern-18.jpg",
+      "midi": "/rolls/pattern-18.jpg"
+    },
+    "weave": "Satin Weave",
+    "in_stock": 2,
+    "gsm": 250,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "51",
+    "image": null,
+    "weave": "Basket Weave",
+    "in_stock": 7,
+    "gsm": 280,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "52",
+    "image": null,
+    "weave": "Houndstooth",
+    "in_stock": 9,
+    "gsm": 270,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "53",
+    "image": {
+      "original": "/rolls/pattern-18.jpg",
+      "midi": "/rolls/pattern-18.jpg"
+    },
+    "weave": "Terrycloth",
+    "in_stock": 5,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "54",
+    "image": {
+      "original": "/rolls/pattern-19.jpg",
+      "midi": "/rolls/pattern-19.jpg"
+    },
+    "weave": "Satin Weave",
+    "in_stock": 9,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "55",
+    "image": {
+      "original": "/rolls/pattern-9.jpg",
+      "midi": "/rolls/pattern-9.jpg"
+    },
+    "weave": "Piqué",
+    "in_stock": 2,
+    "gsm": 400,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "56",
+    "image": {
+      "original": "/rolls/pattern-13.jpg",
+      "midi": "/rolls/pattern-13.jpg"
+    },
+    "weave": "Chiffon Weave",
+    "in_stock": 9,
+    "gsm": 270,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "57",
+    "image": {
+      "original": "/rolls/pattern-11.jpg",
+      "midi": "/rolls/pattern-11.jpg"
+    },
+    "weave": "Seersucker",
+    "in_stock": 3,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "58",
+    "image": null,
+    "weave": "Seersucker",
+    "in_stock": 3,
+    "gsm": 150,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "59",
+    "image": null,
+    "weave": null,
+    "in_stock": 4,
+    "gsm": 280,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "60",
+    "image": {
+      "original": "/rolls/pattern-20.jpg",
+      "midi": "/rolls/pattern-20.jpg"
+    },
+    "weave": "Herringbone",
+    "in_stock": 1,
+    "gsm": 400,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "61",
+    "image": {
+      "original": "/rolls/pattern-16.jpg",
+      "midi": "/rolls/pattern-16.jpg"
+    },
+    "weave": "Crepe Weave",
+    "in_stock": 1,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "62",
+    "image": null,
+    "weave": "Basket Weave",
+    "in_stock": 9,
+    "gsm": 270,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "63",
+    "image": {
+      "original": "/rolls/pattern-14.jpg",
+      "midi": "/rolls/pattern-14.jpg"
+    },
+    "weave": "Denim",
+    "in_stock": 2,
+    "gsm": 100,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "64",
+    "image": {
+      "original": "/rolls/pattern-16.jpg",
+      "midi": "/rolls/pattern-16.jpg"
+    },
+    "weave": "Crepe Weave",
+    "in_stock": 6,
+    "gsm": 280,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "65",
+    "image": {
+      "original": "/rolls/pattern-19.jpg",
+      "midi": "/rolls/pattern-19.jpg"
+    },
+    "weave": "Canvas",
+    "in_stock": 10,
+    "gsm": 300,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "66",
+    "image": {
+      "original": "/rolls/pattern-2.jpg",
+      "midi": "/rolls/pattern-2.jpg"
+    },
+    "weave": "Corduroy",
+    "in_stock": 6,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "67",
+    "image": {
+      "original": "/rolls/pattern-14.jpg",
+      "midi": "/rolls/pattern-14.jpg"
+    },
+    "weave": "Taffeta",
+    "in_stock": 9,
+    "gsm": 280,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "68",
+    "image": {
+      "original": "/rolls/pattern-16.jpg",
+      "midi": "/rolls/pattern-16.jpg"
+    },
+    "weave": "Piqué",
+    "in_stock": 2,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "69",
+    "image": {
+      "original": "/rolls/pattern-17.jpg",
+      "midi": "/rolls/pattern-17.jpg"
+    },
+    "weave": "Canvas",
+    "in_stock": 9,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "70",
+    "image": {
+      "original": "/rolls/pattern-19.jpg",
+      "midi": "/rolls/pattern-19.jpg"
+    },
+    "weave": null,
+    "in_stock": 9,
+    "gsm": 120,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "71",
+    "image": {
+      "original": "/rolls/pattern-2.jpg",
+      "midi": "/rolls/pattern-2.jpg"
+    },
+    "weave": "Matelassé",
+    "in_stock": 9,
+    "gsm": 320,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "72",
+    "image": {
+      "original": "/rolls/pattern-8.jpg",
+      "midi": "/rolls/pattern-8.jpg"
+    },
+    "weave": "Corduroy",
+    "in_stock": 1,
+    "gsm": 150,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "73",
+    "image": {
+      "original": "/rolls/pattern-12.jpg",
+      "midi": "/rolls/pattern-12.jpg"
+    },
+    "weave": "Canvas",
+    "in_stock": 2,
+    "gsm": 220,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "74",
+    "image": {
+      "original": "/rolls/pattern-6.jpg",
+      "midi": "/rolls/pattern-6.jpg"
+    },
+    "weave": null,
+    "in_stock": 5,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "75",
+    "image": {
+      "original": "/rolls/pattern-6.jpg",
+      "midi": "/rolls/pattern-6.jpg"
+    },
+    "weave": "Velvet Weave",
+    "in_stock": 7,
+    "gsm": 320,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "76",
+    "image": {
+      "original": "/rolls/pattern-15.jpg",
+      "midi": "/rolls/pattern-15.jpg"
+    },
+    "weave": "Piqué",
+    "in_stock": 7,
+    "gsm": 320,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "77",
+    "image": {
+      "original": "/rolls/pattern-19.jpg",
+      "midi": "/rolls/pattern-19.jpg"
+    },
+    "weave": "Canvas",
+    "in_stock": 4,
+    "gsm": 250,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "78",
+    "image": {
+      "original": "/rolls/pattern-7.jpg",
+      "midi": "/rolls/pattern-7.jpg"
+    },
+    "weave": null,
+    "in_stock": 4,
+    "gsm": 200,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "79",
+    "image": {
+      "original": "/rolls/pattern-9.jpg",
+      "midi": "/rolls/pattern-9.jpg"
+    },
+    "weave": "Basket Weave",
+    "in_stock": 1,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "80",
+    "image": {
+      "original": "/rolls/pattern-3.jpg",
+      "midi": "/rolls/pattern-3.jpg"
+    },
+    "weave": "Basket Weave",
+    "in_stock": 6,
+    "gsm": 200,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "81",
+    "image": {
+      "original": "/rolls/pattern-20.jpg",
+      "midi": "/rolls/pattern-20.jpg"
+    },
+    "weave": "Leno Weave",
+    "in_stock": 9,
+    "gsm": 100,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "82",
+    "image": null,
+    "weave": "Sateen",
+    "in_stock": 8,
+    "gsm": 100,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "83",
+    "image": {
+      "original": "/rolls/pattern-4.jpg",
+      "midi": "/rolls/pattern-4.jpg"
+    },
+    "weave": null,
+    "in_stock": 2,
+    "gsm": 280,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "84",
+    "image": {
+      "original": "/rolls/pattern-16.jpg",
+      "midi": "/rolls/pattern-16.jpg"
+    },
+    "weave": "Birdseye",
+    "in_stock": 2,
+    "gsm": 270,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "85",
+    "image": {
+      "original": "/rolls/pattern-19.jpg",
+      "midi": "/rolls/pattern-19.jpg"
+    },
+    "weave": "Crepe Weave",
+    "in_stock": 8,
+    "gsm": 250,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "86",
+    "image": {
+      "original": "/rolls/pattern-17.jpg",
+      "midi": "/rolls/pattern-17.jpg"
+    },
+    "weave": "Velvet Weave",
+    "in_stock": 1,
+    "gsm": 270,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "87",
+    "image": null,
+    "weave": "Herringbone",
+    "in_stock": 2,
+    "gsm": 350,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "88",
+    "image": {
+      "original": "/rolls/pattern-7.jpg",
+      "midi": "/rolls/pattern-7.jpg"
+    },
+    "weave": null,
+    "in_stock": 2,
+    "gsm": 150,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "89",
+    "image": {
+      "original": "/rolls/pattern-4.jpg",
+      "midi": "/rolls/pattern-4.jpg"
+    },
+    "weave": "Gauze",
+    "in_stock": 5,
+    "gsm": 180,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "90",
+    "image": null,
+    "weave": null,
+    "in_stock": 5,
+    "gsm": 220,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "91",
+    "image": {
+      "original": "/rolls/pattern-11.jpg",
+      "midi": "/rolls/pattern-11.jpg"
+    },
+    "weave": null,
+    "in_stock": 9,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "92",
+    "image": null,
+    "weave": "Piqué",
+    "in_stock": 6,
+    "gsm": 250,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "93",
+    "image": {
+      "original": "/rolls/pattern-12.jpg",
+      "midi": "/rolls/pattern-12.jpg"
+    },
+    "weave": "Canvas",
+    "in_stock": 1,
+    "gsm": 180,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "94",
+    "image": {
+      "original": "/rolls/pattern-10.jpg",
+      "midi": "/rolls/pattern-10.jpg"
+    },
+    "weave": "Plain Weave",
+    "in_stock": 8,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "95",
+    "image": {
+      "original": "/rolls/pattern-11.jpg",
+      "midi": "/rolls/pattern-11.jpg"
+    },
+    "weave": "Birdseye",
+    "in_stock": 10,
+    "gsm": 250,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "96",
+    "image": null,
+    "weave": null,
+    "in_stock": 8,
+    "gsm": 280,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "97",
+    "image": {
+      "original": "/rolls/pattern-5.jpg",
+      "midi": "/rolls/pattern-5.jpg"
+    },
+    "weave": "Honeycomb Weave",
+    "in_stock": 9,
+    "gsm": 350,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "98",
+    "image": {
+      "original": "/rolls/pattern-19.jpg",
+      "midi": "/rolls/pattern-19.jpg"
+    },
+    "weave": "Sateen",
+    "in_stock": 2,
+    "gsm": 120,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "99",
+    "image": {
+      "original": "/rolls/pattern-7.jpg",
+      "midi": "/rolls/pattern-7.jpg"
+    },
+    "weave": "Seersucker",
+    "in_stock": 4,
+    "gsm": 350,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "100",
+    "image": null,
+    "weave": null,
+    "in_stock": 2,
+    "gsm": 320,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "101",
+    "image": null,
+    "weave": "Canvas",
+    "in_stock": 10,
+    "gsm": 150,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "102",
+    "image": {
+      "original": "/rolls/pattern-3.jpg",
+      "midi": "/rolls/pattern-3.jpg"
+    },
+    "weave": null,
+    "in_stock": 7,
+    "gsm": 100,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "103",
+    "image": null,
+    "weave": "Houndstooth",
+    "in_stock": 8,
+    "gsm": 220,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "104",
+    "image": {
+      "original": "/rolls/pattern-20.jpg",
+      "midi": "/rolls/pattern-20.jpg"
+    },
+    "weave": null,
+    "in_stock": 7,
+    "gsm": 400,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "105",
+    "image": {
+      "original": "/rolls/pattern-6.jpg",
+      "midi": "/rolls/pattern-6.jpg"
+    },
+    "weave": null,
+    "in_stock": 7,
+    "gsm": 180,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "106",
+    "image": {
+      "original": "/rolls/pattern-17.jpg",
+      "midi": "/rolls/pattern-17.jpg"
+    },
+    "weave": "Plain Weave",
+    "in_stock": 1,
+    "gsm": 200,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "107",
+    "image": {
+      "original": "/rolls/pattern-10.jpg",
+      "midi": "/rolls/pattern-10.jpg"
+    },
+    "weave": "Jacquard",
+    "in_stock": 10,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "108",
+    "image": null,
+    "weave": "Houndstooth",
+    "in_stock": 9,
+    "gsm": 120,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "109",
+    "image": {
+      "original": "/rolls/pattern-5.jpg",
+      "midi": "/rolls/pattern-5.jpg"
+    },
+    "weave": null,
+    "in_stock": 8,
+    "gsm": 420,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "110",
+    "image": null,
+    "weave": "Gauze",
+    "in_stock": 6,
+    "gsm": 420,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "111",
+    "image": null,
+    "weave": null,
+    "in_stock": 4,
+    "gsm": 350,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "112",
+    "image": {
+      "original": "/rolls/pattern-17.jpg",
+      "midi": "/rolls/pattern-17.jpg"
+    },
+    "weave": "Birdseye",
+    "in_stock": 9,
+    "gsm": 280,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "113",
+    "image": null,
+    "weave": "Jacquard",
+    "in_stock": 8,
+    "gsm": 150,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "114",
+    "image": {
+      "original": "/rolls/pattern-12.jpg",
+      "midi": "/rolls/pattern-12.jpg"
+    },
+    "weave": "Denim",
+    "in_stock": 6,
+    "gsm": 270,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "115",
+    "image": null,
+    "weave": "Plain Weave",
+    "in_stock": 3,
+    "gsm": 420,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "116",
+    "image": {
+      "original": "/rolls/pattern-13.jpg",
+      "midi": "/rolls/pattern-13.jpg"
+    },
+    "weave": "Gauze",
+    "in_stock": 8,
+    "gsm": 280,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "117",
+    "image": {
+      "original": "/rolls/pattern-1.jpg",
+      "midi": "/rolls/pattern-1.jpg"
+    },
+    "weave": "Houndstooth",
+    "in_stock": 1,
+    "gsm": 320,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "118",
+    "image": {
+      "original": "/rolls/pattern-14.jpg",
+      "midi": "/rolls/pattern-14.jpg"
+    },
+    "weave": "Gauze",
+    "in_stock": 8,
+    "gsm": 180,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "119",
+    "image": {
+      "original": "/rolls/pattern-7.jpg",
+      "midi": "/rolls/pattern-7.jpg"
+    },
+    "weave": "Oxford Weave",
+    "in_stock": 3,
+    "gsm": 350,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "120",
+    "image": {
+      "original": "/rolls/pattern-15.jpg",
+      "midi": "/rolls/pattern-15.jpg"
+    },
+    "weave": "Sateen",
+    "in_stock": 2,
+    "gsm": 270,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "121",
+    "image": {
+      "original": "/rolls/pattern-6.jpg",
+      "midi": "/rolls/pattern-6.jpg"
+    },
+    "weave": "Velvet Weave",
+    "in_stock": 6,
+    "gsm": 120,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "122",
+    "image": {
+      "original": "/rolls/pattern-1.jpg",
+      "midi": "/rolls/pattern-1.jpg"
+    },
+    "weave": "Gauze",
+    "in_stock": 7,
+    "gsm": 180,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "123",
+    "image": null,
+    "weave": "Velvet Weave",
+    "in_stock": 5,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "124",
+    "image": null,
+    "weave": "Gauze",
+    "in_stock": 10,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "125",
+    "image": {
+      "original": "/rolls/pattern-2.jpg",
+      "midi": "/rolls/pattern-2.jpg"
+    },
+    "weave": "Basket Weave",
+    "in_stock": 1,
+    "gsm": 400,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "126",
+    "image": null,
+    "weave": null,
+    "in_stock": 8,
+    "gsm": 350,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "127",
+    "image": {
+      "original": "/rolls/pattern-6.jpg",
+      "midi": "/rolls/pattern-6.jpg"
+    },
+    "weave": "Matelassé",
+    "in_stock": 7,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "128",
+    "image": {
+      "original": "/rolls/pattern-20.jpg",
+      "midi": "/rolls/pattern-20.jpg"
+    },
+    "weave": "Corduroy",
+    "in_stock": 5,
+    "gsm": 120,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "129",
+    "image": {
+      "original": "/rolls/pattern-7.jpg",
+      "midi": "/rolls/pattern-7.jpg"
+    },
+    "weave": "Honeycomb Weave",
+    "in_stock": 2,
+    "gsm": 120,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "130",
+    "image": {
+      "original": "/rolls/pattern-9.jpg",
+      "midi": "/rolls/pattern-9.jpg"
+    },
+    "weave": "Jacquard",
+    "in_stock": 1,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "131",
+    "image": {
+      "original": "/rolls/pattern-8.jpg",
+      "midi": "/rolls/pattern-8.jpg"
+    },
+    "weave": "Plain Weave",
+    "in_stock": 2,
+    "gsm": 120,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "132",
+    "image": {
+      "original": "/rolls/pattern-13.jpg",
+      "midi": "/rolls/pattern-13.jpg"
+    },
+    "weave": null,
+    "in_stock": 2,
+    "gsm": 300,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "133",
+    "image": {
+      "original": "/rolls/pattern-16.jpg",
+      "midi": "/rolls/pattern-16.jpg"
+    },
+    "weave": null,
+    "in_stock": 10,
+    "gsm": 250,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "134",
+    "image": {
+      "original": "/rolls/pattern-9.jpg",
+      "midi": "/rolls/pattern-9.jpg"
+    },
+    "weave": "Canvas",
+    "in_stock": 7,
+    "gsm": 200,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "135",
+    "image": null,
+    "weave": "Gabardine",
+    "in_stock": 5,
+    "gsm": 120,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "136",
+    "image": {
+      "original": "/rolls/pattern-14.jpg",
+      "midi": "/rolls/pattern-14.jpg"
+    },
+    "weave": null,
+    "in_stock": 9,
+    "gsm": 400,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "137",
+    "image": null,
+    "weave": "Herringbone",
+    "in_stock": 8,
+    "gsm": 180,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "138",
+    "image": {
+      "original": "/rolls/pattern-8.jpg",
+      "midi": "/rolls/pattern-8.jpg"
+    },
+    "weave": "Poplin",
+    "in_stock": 7,
+    "gsm": 100,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "139",
+    "image": {
+      "original": "/rolls/pattern-20.jpg",
+      "midi": "/rolls/pattern-20.jpg"
+    },
+    "weave": null,
+    "in_stock": 10,
+    "gsm": 420,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "140",
+    "image": {
+      "original": "/rolls/pattern-16.jpg",
+      "midi": "/rolls/pattern-16.jpg"
+    },
+    "weave": "Denim",
+    "in_stock": 9,
+    "gsm": 100,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "141",
+    "image": {
+      "original": "/rolls/pattern-13.jpg",
+      "midi": "/rolls/pattern-13.jpg"
+    },
+    "weave": "Gabardine",
+    "in_stock": 8,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "142",
+    "image": null,
+    "weave": null,
+    "in_stock": 1,
+    "gsm": 180,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "143",
+    "image": {
+      "original": "/rolls/pattern-9.jpg",
+      "midi": "/rolls/pattern-9.jpg"
+    },
+    "weave": "Jacquard",
+    "in_stock": 9,
+    "gsm": 400,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "144",
+    "image": null,
+    "weave": "Chiffon Weave",
+    "in_stock": 8,
+    "gsm": 180,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "145",
+    "image": {
+      "original": "/rolls/pattern-3.jpg",
+      "midi": "/rolls/pattern-3.jpg"
+    },
+    "weave": "Denim",
+    "in_stock": 5,
+    "gsm": 200,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "146",
+    "image": {
+      "original": "/rolls/pattern-20.jpg",
+      "midi": "/rolls/pattern-20.jpg"
+    },
+    "weave": "Birdseye",
+    "in_stock": 7,
+    "gsm": 320,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "147",
+    "image": {
+      "original": "/rolls/pattern-17.jpg",
+      "midi": "/rolls/pattern-17.jpg"
+    },
+    "weave": null,
+    "in_stock": 5,
+    "gsm": 220,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "148",
+    "image": {
+      "original": "/rolls/pattern-15.jpg",
+      "midi": "/rolls/pattern-15.jpg"
+    },
+    "weave": "Crepe Weave",
+    "in_stock": 9,
+    "gsm": 300,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "149",
+    "image": {
+      "original": "/rolls/pattern-8.jpg",
+      "midi": "/rolls/pattern-8.jpg"
+    },
+    "weave": "Gauze",
+    "in_stock": 7,
+    "gsm": 280,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "150",
+    "image": {
+      "original": "/rolls/pattern-8.jpg",
+      "midi": "/rolls/pattern-8.jpg"
+    },
+    "weave": null,
+    "in_stock": 1,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "151",
+    "image": null,
+    "weave": "Piqué",
+    "in_stock": 7,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "152",
+    "image": {
+      "original": "/rolls/pattern-18.jpg",
+      "midi": "/rolls/pattern-18.jpg"
+    },
+    "weave": null,
+    "in_stock": 4,
+    "gsm": 220,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "153",
+    "image": null,
+    "weave": null,
+    "in_stock": 8,
+    "gsm": 300,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "154",
+    "image": {
+      "original": "/rolls/pattern-14.jpg",
+      "midi": "/rolls/pattern-14.jpg"
+    },
+    "weave": "Dobby",
+    "in_stock": 4,
+    "gsm": 220,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "155",
+    "image": {
+      "original": "/rolls/pattern-9.jpg",
+      "midi": "/rolls/pattern-9.jpg"
+    },
+    "weave": null,
+    "in_stock": 3,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "156",
+    "image": {
+      "original": "/rolls/pattern-4.jpg",
+      "midi": "/rolls/pattern-4.jpg"
+    },
+    "weave": "Houndstooth",
+    "in_stock": 4,
+    "gsm": 220,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "157",
+    "image": {
+      "original": "/rolls/pattern-7.jpg",
+      "midi": "/rolls/pattern-7.jpg"
+    },
+    "weave": "Terrycloth",
+    "in_stock": 2,
+    "gsm": 120,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "158",
+    "image": {
+      "original": "/rolls/pattern-2.jpg",
+      "midi": "/rolls/pattern-2.jpg"
+    },
+    "weave": "Matelassé",
+    "in_stock": 1,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "159",
+    "image": {
+      "original": "/rolls/pattern-5.jpg",
+      "midi": "/rolls/pattern-5.jpg"
+    },
+    "weave": "Plain Weave",
+    "in_stock": 3,
+    "gsm": 280,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "160",
+    "image": null,
+    "weave": "Honeycomb Weave",
+    "in_stock": 5,
+    "gsm": 220,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "161",
+    "image": {
+      "original": "/rolls/pattern-20.jpg",
+      "midi": "/rolls/pattern-20.jpg"
+    },
+    "weave": "Satin Weave",
+    "in_stock": 2,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "162",
+    "image": {
+      "original": "/rolls/pattern-16.jpg",
+      "midi": "/rolls/pattern-16.jpg"
+    },
+    "weave": "Dobby",
+    "in_stock": 1,
+    "gsm": 120,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "163",
+    "image": {
+      "original": "/rolls/pattern-9.jpg",
+      "midi": "/rolls/pattern-9.jpg"
+    },
+    "weave": null,
+    "in_stock": 9,
+    "gsm": 250,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "164",
+    "image": {
+      "original": "/rolls/pattern-16.jpg",
+      "midi": "/rolls/pattern-16.jpg"
+    },
+    "weave": "Gabardine",
+    "in_stock": 9,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "165",
+    "image": {
+      "original": "/rolls/pattern-20.jpg",
+      "midi": "/rolls/pattern-20.jpg"
+    },
+    "weave": "Oxford Weave",
+    "in_stock": 3,
+    "gsm": 400,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "166",
+    "image": {
+      "original": "/rolls/pattern-4.jpg",
+      "midi": "/rolls/pattern-4.jpg"
+    },
+    "weave": "Seersucker",
+    "in_stock": 3,
+    "gsm": 100,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "167",
+    "image": null,
+    "weave": "Crepe Weave",
+    "in_stock": 3,
+    "gsm": 400,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "168",
+    "image": {
+      "original": "/rolls/pattern-11.jpg",
+      "midi": "/rolls/pattern-11.jpg"
+    },
+    "weave": "Plain Weave",
+    "in_stock": 2,
+    "gsm": 220,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "169",
+    "image": {
+      "original": "/rolls/pattern-10.jpg",
+      "midi": "/rolls/pattern-10.jpg"
+    },
+    "weave": "Chiffon Weave",
+    "in_stock": 5,
+    "gsm": 420,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "170",
+    "image": {
+      "original": "/rolls/pattern-20.jpg",
+      "midi": "/rolls/pattern-20.jpg"
+    },
+    "weave": "Plain Weave",
+    "in_stock": 4,
+    "gsm": 280,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "171",
+    "image": null,
+    "weave": "Seersucker",
+    "in_stock": 6,
+    "gsm": 400,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "172",
+    "image": {
+      "original": "/rolls/pattern-16.jpg",
+      "midi": "/rolls/pattern-16.jpg"
+    },
+    "weave": "Oxford Weave",
+    "in_stock": 1,
+    "gsm": 120,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "173",
+    "image": {
+      "original": "/rolls/pattern-10.jpg",
+      "midi": "/rolls/pattern-10.jpg"
+    },
+    "weave": "Taffeta",
+    "in_stock": 5,
+    "gsm": 180,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "174",
+    "image": {
+      "original": "/rolls/pattern-5.jpg",
+      "midi": "/rolls/pattern-5.jpg"
+    },
+    "weave": "Taffeta",
+    "in_stock": 3,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "175",
+    "image": {
+      "original": "/rolls/pattern-17.jpg",
+      "midi": "/rolls/pattern-17.jpg"
+    },
+    "weave": null,
+    "in_stock": 6,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "176",
+    "image": {
+      "original": "/rolls/pattern-16.jpg",
+      "midi": "/rolls/pattern-16.jpg"
+    },
+    "weave": null,
+    "in_stock": 9,
+    "gsm": 320,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "177",
+    "image": {
+      "original": "/rolls/pattern-18.jpg",
+      "midi": "/rolls/pattern-18.jpg"
+    },
+    "weave": null,
+    "in_stock": 1,
+    "gsm": 100,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "178",
+    "image": {
+      "original": "/rolls/pattern-14.jpg",
+      "midi": "/rolls/pattern-14.jpg"
+    },
+    "weave": "Satin Weave",
+    "in_stock": 2,
+    "gsm": 420,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "179",
+    "image": null,
+    "weave": "Poplin",
+    "in_stock": 7,
+    "gsm": 100,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "180",
+    "image": {
+      "original": "/rolls/pattern-1.jpg",
+      "midi": "/rolls/pattern-1.jpg"
+    },
+    "weave": "Leno Weave",
+    "in_stock": 6,
+    "gsm": 280,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "181",
+    "image": {
+      "original": "/rolls/pattern-12.jpg",
+      "midi": "/rolls/pattern-12.jpg"
+    },
+    "weave": "Chiffon Weave",
+    "in_stock": 7,
+    "gsm": 400,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "182",
+    "image": null,
+    "weave": "Oxford Weave",
+    "in_stock": 5,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "183",
+    "image": {
+      "original": "/rolls/pattern-10.jpg",
+      "midi": "/rolls/pattern-10.jpg"
+    },
+    "weave": "Taffeta",
+    "in_stock": 5,
+    "gsm": 400,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "184",
+    "image": null,
+    "weave": "Dobby",
+    "in_stock": 5,
+    "gsm": 350,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "185",
+    "image": {
+      "original": "/rolls/pattern-19.jpg",
+      "midi": "/rolls/pattern-19.jpg"
+    },
+    "weave": "Gabardine",
+    "in_stock": 10,
+    "gsm": 120,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "186",
+    "image": {
+      "original": "/rolls/pattern-5.jpg",
+      "midi": "/rolls/pattern-5.jpg"
+    },
+    "weave": "Twill Weave",
+    "in_stock": 1,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "187",
+    "image": {
+      "original": "/rolls/pattern-15.jpg",
+      "midi": "/rolls/pattern-15.jpg"
+    },
+    "weave": "Velvet Weave",
+    "in_stock": 3,
+    "gsm": 280,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "188",
+    "image": null,
+    "weave": "Terrycloth",
+    "in_stock": 8,
+    "gsm": 270,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "189",
+    "image": {
+      "original": "/rolls/pattern-13.jpg",
+      "midi": "/rolls/pattern-13.jpg"
+    },
+    "weave": "Gauze",
+    "in_stock": 3,
+    "gsm": 300,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "190",
+    "image": {
+      "original": "/rolls/pattern-15.jpg",
+      "midi": "/rolls/pattern-15.jpg"
+    },
+    "weave": "Piqué",
+    "in_stock": 1,
+    "gsm": 220,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "191",
+    "image": {
+      "original": "/rolls/pattern-19.jpg",
+      "midi": "/rolls/pattern-19.jpg"
+    },
+    "weave": "Chiffon Weave",
+    "in_stock": 6,
+    "gsm": 280,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "192",
+    "image": {
+      "original": "/rolls/pattern-12.jpg",
+      "midi": "/rolls/pattern-12.jpg"
+    },
+    "weave": "Satin Weave",
+    "in_stock": 6,
+    "gsm": 400,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "193",
+    "image": {
+      "original": "/rolls/pattern-17.jpg",
+      "midi": "/rolls/pattern-17.jpg"
+    },
+    "weave": "Seersucker",
+    "in_stock": 3,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "194",
+    "image": {
+      "original": "/rolls/pattern-19.jpg",
+      "midi": "/rolls/pattern-19.jpg"
+    },
+    "weave": "Gauze",
+    "in_stock": 6,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "195",
+    "image": {
+      "original": "/rolls/pattern-4.jpg",
+      "midi": "/rolls/pattern-4.jpg"
+    },
+    "weave": null,
+    "in_stock": 1,
+    "gsm": 320,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "196",
+    "image": {
+      "original": "/rolls/pattern-10.jpg",
+      "midi": "/rolls/pattern-10.jpg"
+    },
+    "weave": "Terrycloth",
+    "in_stock": 5,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "197",
+    "image": {
+      "original": "/rolls/pattern-10.jpg",
+      "midi": "/rolls/pattern-10.jpg"
+    },
+    "weave": "Twill Weave",
+    "in_stock": 8,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "198",
+    "image": {
+      "original": "/rolls/pattern-18.jpg",
+      "midi": "/rolls/pattern-18.jpg"
+    },
+    "weave": "Sateen",
+    "in_stock": 10,
+    "gsm": 120,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "199",
+    "image": {
+      "original": "/rolls/pattern-20.jpg",
+      "midi": "/rolls/pattern-20.jpg"
+    },
+    "weave": "Basket Weave",
+    "in_stock": 5,
+    "gsm": 250,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "200",
+    "image": {
+      "original": "/rolls/pattern-1.jpg",
+      "midi": "/rolls/pattern-1.jpg"
+    },
+    "weave": "Matelassé",
+    "in_stock": 6,
+    "gsm": 200,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "201",
+    "image": {
+      "original": "/rolls/pattern-4.jpg",
+      "midi": "/rolls/pattern-4.jpg"
+    },
+    "weave": null,
+    "in_stock": 10,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "202",
+    "image": null,
+    "weave": "Seersucker",
+    "in_stock": 9,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "203",
+    "image": {
+      "original": "/rolls/pattern-6.jpg",
+      "midi": "/rolls/pattern-6.jpg"
+    },
+    "weave": "Leno Weave",
+    "in_stock": 4,
+    "gsm": 320,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "204",
+    "image": {
+      "original": "/rolls/pattern-4.jpg",
+      "midi": "/rolls/pattern-4.jpg"
+    },
+    "weave": "Canvas",
+    "in_stock": 8,
+    "gsm": 120,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "205",
+    "image": {
+      "original": "/rolls/pattern-18.jpg",
+      "midi": "/rolls/pattern-18.jpg"
+    },
+    "weave": "Herringbone",
+    "in_stock": 1,
+    "gsm": 280,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "206",
+    "image": {
+      "original": "/rolls/pattern-4.jpg",
+      "midi": "/rolls/pattern-4.jpg"
+    },
+    "weave": "Velvet Weave",
+    "in_stock": 2,
+    "gsm": 180,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "207",
+    "image": {
+      "original": "/rolls/pattern-18.jpg",
+      "midi": "/rolls/pattern-18.jpg"
+    },
+    "weave": "Velvet Weave",
+    "in_stock": 1,
+    "gsm": 180,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "208",
+    "image": {
+      "original": "/rolls/pattern-14.jpg",
+      "midi": "/rolls/pattern-14.jpg"
+    },
+    "weave": "Plain Weave",
+    "in_stock": 1,
+    "gsm": 280,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "209",
+    "image": {
+      "original": "/rolls/pattern-11.jpg",
+      "midi": "/rolls/pattern-11.jpg"
+    },
+    "weave": "Honeycomb Weave",
+    "in_stock": 1,
+    "gsm": 350,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "210",
+    "image": {
+      "original": "/rolls/pattern-12.jpg",
+      "midi": "/rolls/pattern-12.jpg"
+    },
+    "weave": null,
+    "in_stock": 7,
+    "gsm": 420,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "211",
+    "image": {
+      "original": "/rolls/pattern-19.jpg",
+      "midi": "/rolls/pattern-19.jpg"
+    },
+    "weave": "Canvas",
+    "in_stock": 8,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "212",
+    "image": {
+      "original": "/rolls/pattern-18.jpg",
+      "midi": "/rolls/pattern-18.jpg"
+    },
+    "weave": "Birdseye",
+    "in_stock": 1,
+    "gsm": 180,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "213",
+    "image": {
+      "original": "/rolls/pattern-18.jpg",
+      "midi": "/rolls/pattern-18.jpg"
+    },
+    "weave": null,
+    "in_stock": 10,
+    "gsm": 270,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "214",
+    "image": null,
+    "weave": "Jacquard",
+    "in_stock": 7,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "215",
+    "image": {
+      "original": "/rolls/pattern-10.jpg",
+      "midi": "/rolls/pattern-10.jpg"
+    },
+    "weave": "Poplin",
+    "in_stock": 8,
+    "gsm": 400,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "216",
+    "image": null,
+    "weave": null,
+    "in_stock": 2,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "217",
+    "image": {
+      "original": "/rolls/pattern-5.jpg",
+      "midi": "/rolls/pattern-5.jpg"
+    },
+    "weave": "Plain Weave",
+    "in_stock": 9,
+    "gsm": 100,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "218",
+    "image": {
+      "original": "/rolls/pattern-3.jpg",
+      "midi": "/rolls/pattern-3.jpg"
+    },
+    "weave": null,
+    "in_stock": 7,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "219",
+    "image": {
+      "original": "/rolls/pattern-20.jpg",
+      "midi": "/rolls/pattern-20.jpg"
+    },
+    "weave": null,
+    "in_stock": 10,
+    "gsm": 300,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "220",
+    "image": {
+      "original": "/rolls/pattern-13.jpg",
+      "midi": "/rolls/pattern-13.jpg"
+    },
+    "weave": "Poplin",
+    "in_stock": 2,
+    "gsm": 250,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "221",
+    "image": null,
+    "weave": "Seersucker",
+    "in_stock": 1,
+    "gsm": 320,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "222",
+    "image": {
+      "original": "/rolls/pattern-15.jpg",
+      "midi": "/rolls/pattern-15.jpg"
+    },
+    "weave": null,
+    "in_stock": 1,
+    "gsm": 100,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "223",
+    "image": null,
+    "weave": "Jacquard",
+    "in_stock": 9,
+    "gsm": 100,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "224",
+    "image": {
+      "original": "/rolls/pattern-13.jpg",
+      "midi": "/rolls/pattern-13.jpg"
+    },
+    "weave": "Dobby",
+    "in_stock": 9,
+    "gsm": 150,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "225",
+    "image": {
+      "original": "/rolls/pattern-9.jpg",
+      "midi": "/rolls/pattern-9.jpg"
+    },
+    "weave": "Oxford Weave",
+    "in_stock": 1,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "226",
+    "image": {
+      "original": "/rolls/pattern-1.jpg",
+      "midi": "/rolls/pattern-1.jpg"
+    },
+    "weave": "Velvet Weave",
+    "in_stock": 4,
+    "gsm": 250,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "227",
+    "image": {
+      "original": "/rolls/pattern-2.jpg",
+      "midi": "/rolls/pattern-2.jpg"
+    },
+    "weave": "Piqué",
+    "in_stock": 1,
+    "gsm": 300,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "228",
+    "image": {
+      "original": "/rolls/pattern-18.jpg",
+      "midi": "/rolls/pattern-18.jpg"
+    },
+    "weave": "Twill Weave",
+    "in_stock": 6,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "229",
+    "image": {
+      "original": "/rolls/pattern-17.jpg",
+      "midi": "/rolls/pattern-17.jpg"
+    },
+    "weave": "Crepe Weave",
+    "in_stock": 4,
+    "gsm": 300,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "230",
+    "image": {
+      "original": "/rolls/pattern-11.jpg",
+      "midi": "/rolls/pattern-11.jpg"
+    },
+    "weave": null,
+    "in_stock": 1,
+    "gsm": 120,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "231",
+    "image": null,
+    "weave": "Sateen",
+    "in_stock": 2,
+    "gsm": 420,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "232",
+    "image": {
+      "original": "/rolls/pattern-5.jpg",
+      "midi": "/rolls/pattern-5.jpg"
+    },
+    "weave": "Herringbone",
+    "in_stock": 8,
+    "gsm": 320,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "233",
+    "image": {
+      "original": "/rolls/pattern-19.jpg",
+      "midi": "/rolls/pattern-19.jpg"
+    },
+    "weave": "Canvas",
+    "in_stock": 7,
+    "gsm": 300,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "234",
+    "image": {
+      "original": "/rolls/pattern-4.jpg",
+      "midi": "/rolls/pattern-4.jpg"
+    },
+    "weave": "Velvet Weave",
+    "in_stock": 1,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "235",
+    "image": {
+      "original": "/rolls/pattern-4.jpg",
+      "midi": "/rolls/pattern-4.jpg"
+    },
+    "weave": "Denim",
+    "in_stock": 5,
+    "gsm": 180,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "236",
+    "image": {
+      "original": "/rolls/pattern-10.jpg",
+      "midi": "/rolls/pattern-10.jpg"
+    },
+    "weave": "Corduroy",
+    "in_stock": 9,
+    "gsm": 280,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "237",
+    "image": {
+      "original": "/rolls/pattern-5.jpg",
+      "midi": "/rolls/pattern-5.jpg"
+    },
+    "weave": "Herringbone",
+    "in_stock": 5,
+    "gsm": 350,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "238",
+    "image": {
+      "original": "/rolls/pattern-5.jpg",
+      "midi": "/rolls/pattern-5.jpg"
+    },
+    "weave": null,
+    "in_stock": 3,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "239",
+    "image": {
+      "original": "/rolls/pattern-3.jpg",
+      "midi": "/rolls/pattern-3.jpg"
+    },
+    "weave": "Oxford Weave",
+    "in_stock": 10,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "240",
+    "image": {
+      "original": "/rolls/pattern-16.jpg",
+      "midi": "/rolls/pattern-16.jpg"
+    },
+    "weave": "Satin Weave",
+    "in_stock": 2,
+    "gsm": 120,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "241",
+    "image": {
+      "original": "/rolls/pattern-4.jpg",
+      "midi": "/rolls/pattern-4.jpg"
+    },
+    "weave": null,
+    "in_stock": 5,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "242",
+    "image": {
+      "original": "/rolls/pattern-7.jpg",
+      "midi": "/rolls/pattern-7.jpg"
+    },
+    "weave": "Gauze",
+    "in_stock": 10,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "243",
+    "image": null,
+    "weave": null,
+    "in_stock": 5,
+    "gsm": 120,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "244",
+    "image": null,
+    "weave": "Jacquard",
+    "in_stock": 10,
+    "gsm": 150,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "245",
+    "image": null,
+    "weave": "Basket Weave",
+    "in_stock": 8,
+    "gsm": 220,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "246",
+    "image": {
+      "original": "/rolls/pattern-16.jpg",
+      "midi": "/rolls/pattern-16.jpg"
+    },
+    "weave": "Satin Weave",
+    "in_stock": 4,
+    "gsm": 220,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "247",
+    "image": {
+      "original": "/rolls/pattern-12.jpg",
+      "midi": "/rolls/pattern-12.jpg"
+    },
+    "weave": "Honeycomb Weave",
+    "in_stock": 7,
+    "gsm": 250,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "248",
+    "image": {
+      "original": "/rolls/pattern-11.jpg",
+      "midi": "/rolls/pattern-11.jpg"
+    },
+    "weave": "Matelassé",
+    "in_stock": 7,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "249",
+    "image": null,
+    "weave": "Satin Weave",
+    "in_stock": 5,
+    "gsm": 250,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "250",
+    "image": null,
+    "weave": "Sateen",
+    "in_stock": 9,
+    "gsm": 280,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "251",
+    "image": {
+      "original": "/rolls/pattern-15.jpg",
+      "midi": "/rolls/pattern-15.jpg"
+    },
+    "weave": "Corduroy",
+    "in_stock": 8,
+    "gsm": 420,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "252",
+    "image": null,
+    "weave": null,
+    "in_stock": 7,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "253",
+    "image": null,
+    "weave": "Twill Weave",
+    "in_stock": 9,
+    "gsm": 100,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "254",
+    "image": {
+      "original": "/rolls/pattern-4.jpg",
+      "midi": "/rolls/pattern-4.jpg"
+    },
+    "weave": "Satin Weave",
+    "in_stock": 4,
+    "gsm": 180,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "255",
+    "image": null,
+    "weave": "Leno Weave",
+    "in_stock": 8,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "256",
+    "image": null,
+    "weave": "Honeycomb Weave",
+    "in_stock": 5,
+    "gsm": 250,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "257",
+    "image": {
+      "original": "/rolls/pattern-17.jpg",
+      "midi": "/rolls/pattern-17.jpg"
+    },
+    "weave": "Herringbone",
+    "in_stock": 4,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "258",
+    "image": {
+      "original": "/rolls/pattern-16.jpg",
+      "midi": "/rolls/pattern-16.jpg"
+    },
+    "weave": "Gabardine",
+    "in_stock": 9,
+    "gsm": 120,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "259",
+    "image": {
+      "original": "/rolls/pattern-6.jpg",
+      "midi": "/rolls/pattern-6.jpg"
+    },
+    "weave": "Canvas",
+    "in_stock": 2,
+    "gsm": 120,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "260",
+    "image": null,
+    "weave": "Twill Weave",
+    "in_stock": 2,
+    "gsm": 300,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "261",
+    "image": null,
+    "weave": "Gauze",
+    "in_stock": 6,
+    "gsm": 400,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "262",
+    "image": null,
+    "weave": "Sateen",
+    "in_stock": 10,
+    "gsm": 350,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "263",
+    "image": null,
+    "weave": "Herringbone",
+    "in_stock": 1,
+    "gsm": 220,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "264",
+    "image": {
+      "original": "/rolls/pattern-12.jpg",
+      "midi": "/rolls/pattern-12.jpg"
+    },
+    "weave": "Satin Weave",
+    "in_stock": 6,
+    "gsm": 400,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "265",
+    "image": null,
+    "weave": "Jacquard",
+    "in_stock": 5,
+    "gsm": 100,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "266",
+    "image": {
+      "original": "/rolls/pattern-15.jpg",
+      "midi": "/rolls/pattern-15.jpg"
+    },
+    "weave": "Gabardine",
+    "in_stock": 6,
+    "gsm": 350,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "267",
+    "image": null,
+    "weave": "Poplin",
+    "in_stock": 2,
+    "gsm": 420,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "268",
+    "image": {
+      "original": "/rolls/pattern-10.jpg",
+      "midi": "/rolls/pattern-10.jpg"
+    },
+    "weave": "Piqué",
+    "in_stock": 1,
+    "gsm": 420,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "269",
+    "image": null,
+    "weave": null,
+    "in_stock": 10,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "270",
+    "image": {
+      "original": "/rolls/pattern-13.jpg",
+      "midi": "/rolls/pattern-13.jpg"
+    },
+    "weave": "Gauze",
+    "in_stock": 9,
+    "gsm": 320,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "271",
+    "image": {
+      "original": "/rolls/pattern-12.jpg",
+      "midi": "/rolls/pattern-12.jpg"
+    },
+    "weave": "Denim",
+    "in_stock": 4,
+    "gsm": 280,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "272",
+    "image": {
+      "original": "/rolls/pattern-2.jpg",
+      "midi": "/rolls/pattern-2.jpg"
+    },
+    "weave": "Houndstooth",
+    "in_stock": 5,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "273",
+    "image": {
+      "original": "/rolls/pattern-17.jpg",
+      "midi": "/rolls/pattern-17.jpg"
+    },
+    "weave": "Dobby",
+    "in_stock": 9,
+    "gsm": 300,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "274",
+    "image": {
+      "original": "/rolls/pattern-18.jpg",
+      "midi": "/rolls/pattern-18.jpg"
+    },
+    "weave": "Poplin",
+    "in_stock": 6,
+    "gsm": 150,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "275",
+    "image": {
+      "original": "/rolls/pattern-12.jpg",
+      "midi": "/rolls/pattern-12.jpg"
+    },
+    "weave": "Birdseye",
+    "in_stock": 1,
+    "gsm": 400,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "276",
+    "image": {
+      "original": "/rolls/pattern-10.jpg",
+      "midi": "/rolls/pattern-10.jpg"
+    },
+    "weave": "Poplin",
+    "in_stock": 1,
+    "gsm": 420,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "277",
+    "image": {
+      "original": "/rolls/pattern-5.jpg",
+      "midi": "/rolls/pattern-5.jpg"
+    },
+    "weave": "Matelassé",
+    "in_stock": 4,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "278",
+    "image": {
+      "original": "/rolls/pattern-4.jpg",
+      "midi": "/rolls/pattern-4.jpg"
+    },
+    "weave": "Twill Weave",
+    "in_stock": 4,
+    "gsm": 280,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "279",
+    "image": {
+      "original": "/rolls/pattern-15.jpg",
+      "midi": "/rolls/pattern-15.jpg"
+    },
+    "weave": null,
+    "in_stock": 2,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "280",
+    "image": {
+      "original": "/rolls/pattern-10.jpg",
+      "midi": "/rolls/pattern-10.jpg"
+    },
+    "weave": null,
+    "in_stock": 5,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "281",
+    "image": {
+      "original": "/rolls/pattern-4.jpg",
+      "midi": "/rolls/pattern-4.jpg"
+    },
+    "weave": null,
+    "in_stock": 5,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "282",
+    "image": null,
+    "weave": "Houndstooth",
+    "in_stock": 3,
+    "gsm": 200,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "283",
+    "image": {
+      "original": "/rolls/pattern-4.jpg",
+      "midi": "/rolls/pattern-4.jpg"
+    },
+    "weave": "Taffeta",
+    "in_stock": 1,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "284",
+    "image": null,
+    "weave": "Satin Weave",
+    "in_stock": 7,
+    "gsm": 220,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "285",
+    "image": {
+      "original": "/rolls/pattern-7.jpg",
+      "midi": "/rolls/pattern-7.jpg"
+    },
+    "weave": "Jacquard",
+    "in_stock": 6,
+    "gsm": null,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "286",
+    "image": {
+      "original": "/rolls/pattern-15.jpg",
+      "midi": "/rolls/pattern-15.jpg"
+    },
+    "weave": "Gabardine",
+    "in_stock": 8,
+    "gsm": 250,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "287",
+    "image": {
+      "original": "/rolls/pattern-9.jpg",
+      "midi": "/rolls/pattern-9.jpg"
+    },
+    "weave": "Leno Weave",
+    "in_stock": 1,
+    "gsm": 280,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "288",
+    "image": {
+      "original": "/rolls/pattern-17.jpg",
+      "midi": "/rolls/pattern-17.jpg"
+    },
+    "weave": "Jacquard",
+    "in_stock": 2,
+    "gsm": 400,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "289",
+    "image": {
+      "original": "/rolls/pattern-17.jpg",
+      "midi": "/rolls/pattern-17.jpg"
+    },
+    "weave": "Sateen",
+    "in_stock": 9,
+    "gsm": null,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "290",
+    "image": {
+      "original": "/rolls/pattern-7.jpg",
+      "midi": "/rolls/pattern-7.jpg"
+    },
+    "weave": "Crepe Weave",
+    "in_stock": 3,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "291",
+    "image": {
+      "original": "/rolls/pattern-1.jpg",
+      "midi": "/rolls/pattern-1.jpg"
+    },
+    "weave": null,
+    "in_stock": 8,
+    "gsm": 280,
+    "type": "woven",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "292",
+    "image": {
+      "original": "/rolls/pattern-6.jpg",
+      "midi": "/rolls/pattern-6.jpg"
+    },
+    "weave": "Herringbone",
+    "in_stock": 1,
+    "gsm": 220,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "293",
+    "image": {
+      "original": "/rolls/pattern-8.jpg",
+      "midi": "/rolls/pattern-8.jpg"
+    },
+    "weave": "Basket Weave",
+    "in_stock": 8,
+    "gsm": 100,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "294",
+    "image": {
+      "original": "/rolls/pattern-13.jpg",
+      "midi": "/rolls/pattern-13.jpg"
+    },
+    "weave": "Birdseye",
+    "in_stock": 5,
+    "gsm": 200,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "295",
+    "image": {
+      "original": "/rolls/pattern-1.jpg",
+      "midi": "/rolls/pattern-1.jpg"
+    },
+    "weave": "Twill Weave",
+    "in_stock": 8,
+    "gsm": 180,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "296",
+    "image": {
+      "original": "/rolls/pattern-9.jpg",
+      "midi": "/rolls/pattern-9.jpg"
+    },
+    "weave": "Basket Weave",
+    "in_stock": 8,
+    "gsm": null,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "297",
+    "image": {
+      "original": "/rolls/pattern-20.jpg",
+      "midi": "/rolls/pattern-20.jpg"
+    },
+    "weave": null,
+    "in_stock": 4,
+    "gsm": 200,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "298",
+    "image": {
+      "original": "/rolls/pattern-3.jpg",
+      "midi": "/rolls/pattern-3.jpg"
+    },
+    "weave": "Gauze",
+    "in_stock": 10,
+    "gsm": 100,
+    "type": "knitted",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "299",
+    "image": {
+      "original": "/rolls/pattern-6.jpg",
+      "midi": "/rolls/pattern-6.jpg"
+    },
+    "weave": "Poplin",
+    "in_stock": 9,
+    "gsm": 150,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  },
+  {
+    "_id": "300",
+    "image": {
+      "original": "/rolls/pattern-2.jpg",
+      "midi": "/rolls/pattern-2.jpg"
+    },
+    "weave": "Sateen",
+    "in_stock": 8,
+    "gsm": 220,
+    "type": "other",
+    "composition": null,
+    "comment": null
+  }
+]

@@ -1,24 +1,28 @@
 import type Fabric from "@/interfaces/fabricInterface"
 import EditButton from "./EditButton";
-const FabricInforExpanded = (
+import {USE_MOCK} from "@/const.tsx";
+
+const FabricInfoExpanded = (
   {
     fabricData,
-    handleEditBtnClick
+    handleEditBtnClick,
   }: {
     fabricData: Fabric,
-    handleEditBtnClick: () => void
+    handleEditBtnClick: () => void,
   }
 ) => {
 
   const getCompositionString = () => {
     let result: string = "";
     if (fabricData.composition) {
-      for (let materialType in fabricData.composition) {
+      for (const materialType in fabricData.composition) {
         result += `${materialType}: ${fabricData.composition[materialType]} `;
       }
-    };
+    }
     return result;
   };
+
+  const imageSrc = USE_MOCK ? fabricData.image?.midi : `${import.meta.env.VITE_API_IMAGE_URL_BASE}/${fabricData.image?.midi}`
 
   return (
     <div className="w-1/2 flex justify-center items-center">
@@ -29,11 +33,11 @@ const FabricInforExpanded = (
         <p>Weight: {fabricData.gsm}gsm</p>
         <p>Composition: {fabricData.composition ? getCompositionString() : "unknown"}</p>
         {fabricData.comment && <p>Comment: {fabricData.comment}</p>}
-        <img className="w-full h-32 object-cover rounded-md" src={`${import.meta.env.VITE_API_IMAGE_URL_BASE}/${fabricData.image?.midi}`} />
+        <img className="w-full h-32 object-cover rounded-md" src={imageSrc} alt={fabricData.weave || ''} />
         <EditButton handleClick={handleEditBtnClick}/>
       </div>
     </div>
   )
 };
 
-export default FabricInforExpanded;
+export default FabricInfoExpanded;
