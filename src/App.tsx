@@ -1,11 +1,11 @@
 import './App.css'
-import FabricStash from './pages/FabricStash'
+import FabricStashContainer from "@pages/FabricStashContainer.tsx";
 
 function App() {
 
   return (
     <>
-      <FabricStash />  
+      <FabricStashContainer />
     </>
   )
 }

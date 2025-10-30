@@ -1,4 +1,3 @@
-import { Button } from "@mui/material";
 import React from "react";
 import axios from "axios";
 
@@ -33,11 +32,11 @@ const UploadForm = ({
 
     return (
         <div>
-            <input 
-                type="file" 
+            <input
+                type="file"
                 name="pattern"
-                accept="image/png, image/jpeg" 
-                onChange={handleFileChange} 
+                accept="image/png, image/jpeg"
+                onChange={handleFileChange}
             />
             <button onClick={handleFileUpload}>Upload!</button>
         </div>

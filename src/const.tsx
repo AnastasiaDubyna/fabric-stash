@@ -45,4 +45,6 @@ export const shelfsTransformProps = [
 
 export const shelfTemplatesCount = shelfsTransformProps.length;
 
-export const SHELFS_PER_FETCH_REQUEST = 5; 
+export const SHELFS_PER_FETCH_REQUEST = 5;
+
+export const USE_MOCK = import.meta.env.VITE_USE_MOCK_DATA === 'true';

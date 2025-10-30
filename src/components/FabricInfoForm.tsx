@@ -4,11 +4,9 @@ import { useForm } from "react-hook-form"
 
 const FabricInfoForm = ({
   fabricData,
-  // handleFormSubmit
 }:
 {
   fabricData: Fabric,
-  // handleFormSubmit: () => void
 }) => {
   const [weave, setWeave] = useState<string|null>(fabricData.weave);
   const [inStock, setInStock] = useState<number>(fabricData.in_stock);
@@ -39,21 +37,21 @@ const FabricInfoForm = ({
     <div className="w-1/2 flex justify-center items-center">
       <form onSubmit={handleSubmit((data) => {console.log(data)})} className="flex flex-col items-center space-y-1 w-3/4 rounded-lg bg-white shadow-lg border border-gray-200 px-4 py-2 text-sm text-gray-800">
         {
-          inputs.map((inputObj) => (
-            <div className="w-full">
+          inputs.map((inputObj, index) => (
+            <div key={index} className="w-full">
               <label className="text-sm font-medium text-gray-700">{`${inputObj.label}: `}</label>
-              <input {...register(inputObj.name)} placeholder={inputObj.label} className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 shadow-sm placeholder:text-gray-400 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-colors"/> 
+              <input {...register(inputObj.name)} placeholder={inputObj.label} className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 shadow-sm placeholder:text-gray-400 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-colors"/>
             </div>
           ))
         }
         <div className="w-full flex gap-3 justify-center">
-          <button 
-            type="submit" 
+          <button
+            type="submit"
             className="w-25 mt-3 rounded-lg bg-indigo-100 px-4 py-2 text-sm font-medium text-indigo-700 hover:bg-indigo-200 focus:ring-2 focus:ring-indigo-400/40 transition-colors"
           >
             Save
           </button>
-          <button 
+          <button
             className="w-25 mt-3 rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 transition-colors"
           >
             Cancel

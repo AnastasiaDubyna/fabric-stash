@@ -1,29 +1,9 @@
-import axios from "axios";
-import type Fabric from "@interfaces/fabricInterface";
+import * as mockApi from './mockApi';
+import * as realApi from './realApi';
+import {USE_MOCK} from "@/const.tsx";
 
-const getFabrics = async (limit: number, lastId: string = ""): Promise<Fabric[]> => {
-  const url = `${import.meta.env.VITE_API_URL_BASE}/fabrics`;
-  try {
-    const res = await axios.get(url, {params: {limit, lastId}});
-    return res.data;
-  } catch (err) {
-    console.error(err);
-    throw err;
-  }
-};
+const api = USE_MOCK ? mockApi : realApi;
 
-const getTotal = async (): Promise<number> => {
-  const url = `${import.meta.env.VITE_API_URL_BASE}/total`;
-  try {
-    const res = await axios.get(url);
-    return res.data;
-  } catch (err) {
-    console.error(err);
-    throw err;
-  }
-};
-
-export {
-  getFabrics,
-  getTotal
-};
+export const getFabrics = api.getFabrics;
+// TODO remove redundant
+export const getTotal = api.getTotal;
